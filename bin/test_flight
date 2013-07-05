@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'test_flight'
+
+uploader = TestFlight::Uploader.new
+uploader.start_post

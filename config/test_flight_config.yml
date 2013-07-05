@@ -1,0 +1,8 @@
+end_point: http://testflightapp.com/api/builds.json
+api_key: 11ae916aa1e5d16ee39f2c826cad4595_MTExOTc2ODIwMTMtMDYtMTkgMDU6NTM6NTguMTM4Nzgz
+team_key: 8b63325ad8fd94923b969967c80816f6_OTgyMDAyMDEyLTA2LTI1IDA4OjM3OjM2LjY3MDQ5Mg
+dist_list:
+  - "me@callum.anderson.com"
+  - "callum.home@gmail.com"
+  - "callum.anderson@mendeley.com"
+blank_key:
