@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1ff0997-4486-4ad7-a739-6005863555d6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/test_flight_config.yml" afterPath="$PROJECT_DIR$/config/test_flight_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/test_flight_spec.rb" afterPath="$PROJECT_DIR$/spec/test_flight_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/test_flight/version.rb" afterPath="$PROJECT_DIR$/lib/test_flight/version.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b1ff0997-4486-4ad7-a739-6005863555d6" name="Default" comment="" />
     <ignored path="test_flight.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b1ff0997-4486-4ad7-a739-6005863555d6" time="1373024920287" ignored="false" />
@@ -41,7 +36,7 @@
       <file leaf-file-name="test_flight_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/test_flight_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="128" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.52397263">
+            <state line="16" column="7" selection-start="519" selection-end="519" vertical-scroll-proportion="0.49315068">
               <folding />
             </state>
           </provider>
@@ -680,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/test_flight_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="128" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.52397263">
+        <state line="16" column="7" selection-start="519" selection-end="519" vertical-scroll-proportion="0.49315068">
           <folding />
         </state>
       </provider>
