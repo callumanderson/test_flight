@@ -9,11 +9,11 @@ describe 'TestFlight::Uploader' do
 
   describe 'get_conf' do
     it 'should return the endpoint from the configuration file' do
-      @uploader.get_conf('end_point').should eq("http://testflightapp.com/api/builds.json")
+      @uploader.get_conf('test_end_point').should eq("test_end_point")
     end
 
     it 'should return the api key from the configuration file' do
-      @uploader.get_conf('api_key').should eq("11ae916aa1e5d16ee39f2c826cad4595_MTExOTc2ODIwMTMtMDYtMTkgMDU6NTM6NTguMTM4Nzgz")
+      @uploader.get_conf('test_api_key').should eq("test_api_key")
     end
 
     it 'should fail if an invalid key is supplied' do
@@ -36,7 +36,7 @@ describe 'TestFlight::Uploader' do
 
   describe 'ipa filepath' do
     describe 'request_filepath' do
-    it 'should request the filepath form the user' do
+    it 'should request the filepath from the user' do
       @uploader.request_file_path
       @output.seek(0)
       @output.read.should eq("Enter the file path to the ipa: \n")
@@ -55,7 +55,7 @@ describe 'TestFlight::Uploader' do
 
   describe 'distribution_list' do
     it 'should fetch the default list from yaml' do
-      expectations = ["me@callum.anderson.com", "callum.home@gmail.com", "callum.anderson@mendeley.com"]
+      expectations = ["<YOUR EMAIL HERE>"]
       @uploader.fetch_default_dist.should eq(expectations)
     end
 
@@ -73,7 +73,7 @@ describe 'TestFlight::Uploader' do
     end
 
     it 'should print the dist list' do
-      expectation = "Default distribution list is: [\"me@callum.anderson.com\", \"callum.home@gmail.com\", \"callum.anderson@mendeley.com\"]\n"
+      expectation = "Default distribution list is: [\"<YOUR EMAIL HERE>\"]\n"
       @uploader.print_distribution_list
       @output.seek(0)
       @output.read.should eq(expectation)
@@ -87,7 +87,6 @@ describe 'TestFlight::Uploader' do
       @input.puts(file)
       @input.rewind
       file_path = @uploader.get_file_path
-      puts file_path
       result = File.exists? file_path
       result.should eq(true)
     end
