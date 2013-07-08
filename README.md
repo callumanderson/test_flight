@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This gem makes it easy for you to upload ios builds to testflight.  
+The original use case is for automating the ios build lifecycle with Jenkins.
+
+Once you have installed the gem, simply type test_flight 
+and follow the instructuons in the console.
 
 ## Contributing
 
